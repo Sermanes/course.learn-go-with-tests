@@ -26,5 +26,6 @@ func getPrefix(language string) string {
 }
 
 func main() {
-	fmt.Println(Hello("Sergio", "Spanish"))
+	fmt.Println(Hello("Sergio", spanish))
+	fmt.Println(Hello("Sergio", ""))
 }
